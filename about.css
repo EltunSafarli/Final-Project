@@ -1,0 +1,478 @@
+.vikipedia{
+    border: 1px dotted black;
+   margin-top: 120px;
+   width: 220px;
+   height: 400px;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   line-height: 2.3;
+   margin-left: 40px;
+   padding-left: 40px;
+   padding-right: 40px;
+   
+
+   list-style: none;
+}
+
+.writerImg{
+    width: 301px;
+    /* margin-top: 60px; */
+    /* margin-left: 320px; */
+}
+.vikiImg{
+    display: flex;
+    
+}
+.aboutImg{
+    border: 1px dashed black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 850px;
+    line-height: 1.7;
+    min-width: 300px;
+   
+}
+ .aboutImg p{
+    padding-left: 10px ;
+ }
+
+
+ .vikipoem{
+    margin-top: -400px;
+    margin-left: 520px;
+    margin-bottom: 300px;
+    border: 1px solid black;
+    min-width: 330px;
+    width:400px;
+    background-color: rgb(16, 101, 186);
+    padding: 20px 0px;
+    padding-left: 60px;
+   border-radius: 25px;
+     
+ }
+
+ .numbersPoem{
+    margin-left: 40px;
+    line-height: 2;
+    border: 1px dashed black;
+    list-style: none;
+    display: flex; 
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    min-width: 150px;
+    width: 1200px;
+    margin-top: 30px;
+    
+ }
+ .numbersPoem li{
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+ }
+
+ h3{
+   margin: 10px;
+   font-weight: 900;
+ }
+
+ #about{
+   margin-left: 20px;
+   font-size: 24px;
+   line-height: 1.5;
+   min-width: 1450px;
+ }
+ .poem1{
+   margin-left: 450px;
+   border: 1px solid black ;
+   width: 400px;
+   display: flex;
+   justify-content: center;
+   background-color: antiquewhite;
+   margin-bottom: 80px;
+ }
+
+ .poem2{
+   margin-left: 450px;
+   border: 1px solid black ;
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   background-color: antiquewhite;
+   margin-bottom: 10px;
+
+ }
+
+ #education{
+   margin-top: 50px;
+   margin-left: 15px;
+   font-size: 20px;
+   line-height: 1.5;
+   min-width: 1400px;
+ }
+
+ .poem3{
+   margin-left: 450px;
+   border: 1px solid black ;
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   background-color: antiquewhite;
+   margin-bottom: 10px;
+ }
+
+ #activity{
+   margin-top: 50px;
+   margin-left: 20px;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 30px;
+   min-width: 1450px;
+ }
+
+ #creater{
+   margin-top: 50px;
+   margin-left: 20px;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 30px;
+   min-width: 1450px;
+ }
+
+ #names{
+   margin-left: 20px;
+   font-size: 20px;
+ }
+
+
+
+ 
+@media (min-width: 601px) and (max-width: 991px) {
+
+   .vikipedia{
+      border: 1px dotted black;
+     margin-top: 120px;
+     width: 220px;
+     height: 400px;
+     font-size: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     line-height: 2.3;
+     margin-left: 40px;
+     padding-left: 20px;
+     
+  
+     list-style: none;
+  }
+  
+  .writerImg{
+      width: 301px;
+      /* margin-top: 60px; */
+      /* margin-left: 320px; */
+  }
+  .vikiImg{
+      display: flex;
+      
+  }
+  .aboutImg{
+      border: 1px dashed black;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      margin-left: 550px;
+      line-height: 1.7;
+      min-width: 300px;
+     
+  }
+   .aboutImg p{
+      padding-left: 10px ;
+   }
+  
+  
+   .vikipoem{
+      margin-top: -400px;
+      margin-left: 260px;
+      margin-bottom: 300px;
+      border: 1px solid black;
+      min-width: 330px;
+      width:400px;
+      background-color: rgb(16, 101, 186);
+      padding: 20px 0px;
+      padding-left: 60px;
+     border-radius: 25px;
+       
+   }
+  
+   .numbersPoem{
+      margin-left: 40px;
+      line-height: 2;
+      border: 1px dashed black;
+      list-style: none;
+      display: flex; 
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+      min-width: 150px;
+      width: 1000px;
+      margin-top: 30px;
+      
+   }
+   .numbersPoem li{
+      padding-left: 10px;
+      padding-right: 10px;
+   
+   }
+  
+   h3{
+     margin: 10px;
+     font-weight: 900;
+   }
+  
+   #about{
+     margin-left: 20px;
+     font-size: 24px;
+     line-height: 1.5;
+     width: 1150px;
+     min-width: 800px;
+   }
+   .poem1{
+     margin-left: 450px;
+     border: 1px solid black ;
+     width: 400px;
+     display: flex;
+     justify-content: center;
+     background-color: antiquewhite;
+     margin-bottom: 80px;
+   }
+  
+   .poem2{
+     margin-left: 450px;
+     border: 1px solid black ;
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     background-color: antiquewhite;
+     margin-bottom: 10px;
+  
+   }
+  
+   #education{
+     margin-top: 50px;
+     margin-left: 20px;
+     font-size: 20px;
+     line-height: 1.5;
+     width: 1150px;
+     min-width: 800px;
+   }
+  
+   .poem3{
+     margin-left: 450px;
+     border: 1px solid black ;
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     background-color: antiquewhite;
+     margin-bottom: 10px;
+   }
+  
+   #activity{
+     margin-top: 50px;
+     margin-left: 20px;
+     font-size: 20px;
+     line-height: 1.5;
+     width: 1150px;
+     min-width: 800px;
+   }
+  
+   #creater{
+     margin-top: 50px;
+     margin-left: 20px;
+     font-size: 20px;
+     line-height: 1.5;
+     margin-bottom: 30px;
+     width: 1150px;
+     min-width: 800px;
+   }
+  
+   #names{
+     margin-left: 20px;
+     font-size: 20px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 601px) {
+
+  .vikipedia{
+     border: 1px dotted black;
+    margin-top: 120px;
+    width: 220px;
+    height: 400px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2.3;
+    margin-left: 40px;
+    padding-left: 20px;
+    
+ 
+    list-style: none;
+ }
+ 
+ .writerImg{
+     width: 301px;
+     /* margin-top: 60px; */
+     /* margin-left: 320px; */
+ }
+ .vikiImg{
+     display: flex;
+     
+ }
+ .aboutImg{
+     border: 1px dashed black;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 60px;
+     margin-left: 550px;
+     line-height: 1.7;
+     min-width: 300px;
+    
+ }
+  .aboutImg p{
+     padding-left: 10px ;
+  }
+ 
+ 
+  .vikipoem{
+     margin-top: -400px;
+     margin-left: 260px;
+     margin-bottom: 300px;
+     border: 1px solid black;
+     min-width: 330px;
+     width:400px;
+     background-color: rgb(16, 101, 186);
+     padding: 20px 0px;
+     padding-left: 60px;
+    border-radius: 25px;
+      
+  }
+ 
+  .numbersPoem{
+     margin-left: 40px;
+     line-height: 2;
+     border: 1px dashed black;
+     list-style: none;
+     display: flex; 
+     /* flex-direction: column; */
+     flex-wrap: wrap;
+     min-width: 150px;
+     width: 1000px;
+     margin-top: 30px;
+     
+  }
+  .numbersPoem li{
+     padding-left: 10px;
+     padding-right: 10px;
+  
+  }
+ 
+  h3{
+    margin: 10px;
+    font-weight: 900;
+  }
+ 
+  #about{
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 1050px;
+    min-width: 800px;
+  }
+  .poem1{
+    margin-left: 350px;
+    border: 1px solid black ;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-bottom: 80px;
+  }
+ 
+  .poem2{
+    margin-left: 300px;
+    border: 1px solid black ;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+ 
+  }
+ 
+  #education{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 1050px;
+    min-width: 800px;
+  }
+ 
+  .poem3{
+    margin-left: 300px;
+    border: 1px solid black ;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+  }
+ 
+  #activity{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 1050px;
+    min-width: 800px;
+  }
+ 
+  #creater{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    width: 1050px;
+    min-width: 800px;
+  }
+ 
+  #names{
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+}
+
+#bio-list{
+  display: flex;
+  flex-direction: column;
+}
+

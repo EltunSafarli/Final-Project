@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şeirlər toplusu</title>
+    <link rel="icon" href="./İmages/Şeirlərtoplusu.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./about.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="img-title">
+                <img class="logo1" src="./İmages/Şeirlərtoplusu.jpg" alt="Click for opening new site"
+                    onclick="openNewSite()">
+                <h5>Şeirlər Toplusu</h5>
+
+            </div>
+
+            <a onclick="EsasSehife()" href="#">Əsas səhifə</a>
+            <a onclick="About()" href="#">Haqqında</a>
+            <div class="dropdown">
+                <a href="#">Mövzu</a>
+                <div class="dropdown-content">
+                    <a href="#" onclick="veten()">Vətən şeirləri</a>
+                    <a href="#" onclick="sevgi()">Sevgi şeirləri</a>
+                    <a href="#" onclick="dini()">Dini şeirlər</a>
+                    <a href="#" onclick="qezel()">Qəzəllər</a>
+
+
+                </div>
+            </div>
+            <a href="#" onclick="Form()" id="showRegistrationForm">Qeydiyyat</a>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <button class="mode-button" onclick="toggleMode()">Dark Mode</button>
+
+
+
+        <div id="network-status"></div>
+
+        <div id="bio-list">
+            <div class="vikiImg">
+                <ul class="vikipedia">
+                    <li><a style="text-decoration: none; color:rgb(5, 148, 41);" href="#about">1.Haqqında</a></li>
+                    <li><a style="text-decoration: none; color:rgb(5, 148, 41);" href="#education">2.Təhsili</a></li>
+                    <li><a style="text-decoration: none;  color:rgb(5, 148, 41);" href="#activity">3.Fəaliyyətləri</a>
+                    </li>
+                    <li><a style="text-decoration: none; color:rgb(5, 148, 41);" href="#creater">4.Yaradıcılığı</a>
+                    </li>
+                    <li><a style="text-decoration: none; color:rgb(5, 148, 41);" href="#names">5.Biblioqrafiya</a></li>
+                </ul>
+                <div class="aboutImg">
+                    <img class="writerImg" src="./İmages/img4.jpg" alt="Writer photo">
+                    <p><b>Ad:</b> Eltun Səfərli Şərif</p>
+                    <p><b>Doğum tarixi:</b> 26.09.2004</p>
+                    <p><b>Doğum yeri:</b> Azərbaycan Respublikası Lerik Şəhər Pirzəkücə kəndi</p>
+                    <p><b>Milliyəti:</b> Azərbaycanlı</p>
+                    <p><b>Təhsili:</b> Azərbaycan Dövlət Neft və Sənaye Universiteti</p>
+                    <p><b>İxtisası:</b> Cihaz mühəndisi</p>
+                </div>
+            </div>
+            <div class="vikipoem">
+                <p>Qələm yoruldu ey gülüm,biçarə qaldı sevgidə</p>
+                <p>Cavan yaşında Şairin , heyif qocaldı sevgidə.</p>
+                <br><br>
+
+                <p>Fələk elə oyun qurub,qovuşmaqa gümanda yox,</p>
+                <p>Ayrılıqdan ayrılığın,təkcə vüsaldı sevgidə
+            </div>
+
+            <div id="bio-content"></div>
+        </div>
+
+
+        <div id="about">
+            <h3>Haqqında</h3>
+            <p>Eltun Səfərli </b> Şərif oğlu 2004-cü il 26 sentyabr tarixində, Lerik şəhər Pirzəkücə kəndində anadan
+                olmuşdur.
+                Uşaqlıq illərini dağların qoynunda keçirmiş, gözəlliklər içərisində böyümüş olan gənc yazarımız 8
+                yaşından şeirlər
+                dünyasına keçid edib. Şair qəlbi yaralı olur deyib dahilərimiz. Bəlkə elə bu səbəbdəndir ki, Eltun
+                Səfərli də yazıçılıq yolunu seçdi.
+                Heç də xoş keçməyən uşaqlıq illəri ona həyatında ala biləcək ən böyük zərbəni, 3 yaşında vurdu bəlkə də.
+                İllər sonra gənc yazarımız bu illəri belə xatırlayır:
+                <br>
+                <br>
+            <p class="poem1"> Həyat səni məndən tez aldı , Ata, <br>
+                Qoydu bu yaşımda Atasız məni. <br>
+                Bilməzdin bəlkə də Şair olaram, <br>
+                Öz şeirlərimə yazaram səni. <br><br>
+
+
+                Zamanı kaş geri qaytara bilsəm,<br>
+                Yenidən üç yaşım olardı mənim.<br>
+                Səninlə bir yerdə sevinib,gülsəm,<br>
+                Sevincdən gözlərim dolardı mənim.<br><br>
+
+                İnsanı yaşadan səbəblər var ki,<br>
+                Onlardan biri də sən idin mənçün.<br>
+                İndidə bax yoxsan,demək olar ki,<br>
+                Hər gün qəlb ağlayır,darıxır sənçün.<br><br>
+
+                Yenə bu həyat da çox yorur məni,<br>
+                Yanımda olsaydın yol göstərərdin.<br>
+                Bir gecə yuxumda görsəydim səni,<br>
+                Mənə birazca da sevgi verərdin.<br><br>
+            </p>
+            <p>      Ya heç zaman yıxılmamalısan bu həyatda, ya da yıxıldınsa qalxmağı öyrənməlisən.
+                Eltunun gənc yaşlardan yazıçılıqa yaranan sevgisi, ilin fəsillərindən,qardan, borandan aslı olmayaraq,
+                dayanmadan artırdı. Bir müsahibəsində, ondan "İdealınız?" sualını soruşan həmsöhbətinə, belə cavab
+                vermişdi : "İdealım
+                həmişə mənimlə olan, ürəyimdən keçənləri söyləməyimə kömək edən, gecələr birlikdə səmanı izlədiyim,
+                dərdimi və göz yaşlarımı bölüşdüyüm - Qələmdir!"
+                Qələmə aldığı qəzəllərinin birində belə deyir Eltun Səfər:
+            </p> <br><br>
+            <p class="poem2">Eltun , sənə ən sadiq olan dost ki qələmdi, <br>
+                Bərk tut deməsin mən niyə əldən-ələ düşdüm?!</p> <br><br>
+
+            <p>Qələmə,sözə bu qədər bağlı olan bir şəxsin həyatı,yaradıcılığı hər birimizə maraqlıdır. Biraz da
+                təhsilindən söz açaq ... </p>
+
+
+
+            </p>
+        </div>
+        <div id="education">
+            <h3>Təhsil</h3>
+            <p>2010-cu ildə Lerik Şəhər Kitabəli Həmidov Adına Anbu kənd tam orta məktəbinə qəbul olub, 2021-ci ildə
+                məzun olmuşdur. Elə həmin ildə də Azərbaycan Dövlət Neft və Sənaye Universitetinin Cihaz mühəndisliyi
+                ixtisasının ingilis
+                bölməsinə qəbul olmuşdur. Hal-hazırda 3-cü kurs tələbəsidir. Maraq dairəsi rəngarəng olan yazarımız,
+                ixtisasını və ondan əlavə
+                proqramlaşdırma sahəsi üzrə təhsil alır. Gələcək planlarından söz açmağı sevməyən gəncimiz, yalnız
+                təhsilini magistr səviyyəsində davam etdirmək fikrində
+                olduğunu söyləyir.</p> <br><br>
+            <p class="poem3">Yenə də sevinclə kədər qarışıb, <br>
+                Sevinən kəslərin gözləri dolur, <br>
+                Məktəbdə çalınan bu sonuncu zəng, <br>
+                Yeni bir həyatın ilk zəngi olur
+            </p><br><br>
+
+
+
+        </div>
+        <div id="activity">
+            <h3>Fəaliyyətləri</h3>
+            <p>Daima ətrafdakı insanlarla ünsiyyətdə olmağı çox sevən Eltun Səfərli 11-ci sinifdən etibarən sosial
+                fəaliyyətlərdə də aktiv iştirak etmişdir. İlk öncə Gənclərin İnkişaf və Karyera mərkəzinin Lerik
+                filialında könüllü,daha sonra
+                PR və SMM sahələri təcrübəçi könüllü olmmuşdur. Bu dövr ərzində Respublika səviyyəli bir çox tədbirlərdə
+                iştirak etmiş, söz sevərləri tərəfindən
+                sevilməyə başlamışdır. Azərbaycan Dövlət Neft və Sənaye Universitetində təhsil almasına baxmayaraq,
+                Azərbaycan Dövlət Pedaqoji Universitetində önəmli
+                tədbirlərdə aktiv iştirak etmişdir. Bütün bunlarla yanaşı, intellektual yarışları çox sevən gəncimiz
+                Respublika üzrə bir çox naliyyətlərə imza atmışdır.
+                Müsahibələrində hər zaman yeniliklərə açıq olduğunu bildirən,özünü hər sahədə sınamağa çalışan gəncimiz
+                Universitet illərinə də rəng qatmağı unutmamışdı.
+                O, həmçinin ixtisası yönündə olan bir çox təcrübə və təqaüd proqramlarında iştirak etmişdir. Bütün
+                bunlara "Baku American Center- BAC" , "The Welding Institute -TWI" və.s
+                aiddir. Boş vaxtlarında şeirlər yazmağı,oxumağı, dinləməyi hədsiz çox sevdiyini qeyd edir Eltun Səfərli.
+                Şairlər, yazarlar insanları , hər kəsi başa düşməyi bacaran kəslərdir fikrini səsləndirən
+                yazar, təkcə elmi sahələrdə yox həm də şəxsi keyfiyyətlərdə özümüzü inkişaf etdirməliyik fikrindədir.
+                Həmçinin O, Şirkətlərlə olan görüşlərə,sessiyalara qatılmağın tərəfdarıdı.Çünki burada
+                bir insanın real iş mühitində davranışları, düşdüyü çətinliklər və onlardan çıxış yolu haqqında
+                məlumatlar əldə etmək mümkündü.
+            </p>
+        </div>
+        <div id="creater">
+            <h3>Yaradıcılığı</h3>
+            <p> <b>Kimdir Eltun Səfər?</b> Gəlin yaradıcılığını onun özündən götürdüyümüz müsahibədə dedikləri ilə
+                təsvir edək: <br>
+                <i>Özümü 3 sözlə ifadə etməyi sevmirəm açıqı,yaradıcı ruha malik insanlar heç zaman sərhədlərə tabe
+                    olmaq istəmir.Daima onları aşmağa cəhd göstərir.
+                    Təxəllüsüm barəsində sizə məlumat verim: açığı insanlar bu təxəllüsün soyadımın qısaldılması
+                    olduğunu düşünürlər. Təbiiki haqsız deyillər. Sadəcə
+                    bu "Səfər"in qısa da olsa ayrı bir əsası var. Mən şeiriyyat yolunda yeriməyə başlayarkən mənə ilk
+                    dəstək olan şəxslərdən biri və ya elə ilk şəxs Vasif Əsəd olmuşdur.
+                    O şeirlərimi oxuyur , dəyərləndirir, səhvlərimi düzəliş etməyə çağırırdı. Bir gün söhbət edərkən
+                    mənə, gəl təxəllüsün Səfər olsun dedi, səbəbini soruşduqda isə,
+                    şeirlərində hər mövzuya səfər edirsən, daim yeniliklər həsrətindəsən cavabını verdi. O gündən Eltun
+                    Səfər adını istifadə edirəm.</i>
+            </p>
+            <p>Gənc yazıçımızın şeirləri ilə Mövzu bölməsinə keçid edərək tanış ola bilərsiniz, xoş oxumalar!</p>
+        </div>
+
+
+        <div id="names">
+            <h3>Şeirləri</h3>
+            <ul class="numbersPoem">
+                <li>1.Daldım xəyala</li>
+                <li>2.Şirin sözlüm</li>
+                <li>3.Gəldik üz-üzə</li>
+                <li>4.Sevgi kitabı</li>
+                <li>5.Sonra</li>
+                <li>6.Xoşbəxt olasan</li>
+                <li>7.Gələ bilərsən?</li>
+                <li>8.Sevgi oyunu</li>
+                <li>9.Şeir Qadın</li>
+                <li>10.Sevgi</li>
+                <li>11.Gəlmişəm</li>
+                <li>12.Vəfasız</li>
+                <li>13.Bəlkə də</li>
+                <li>14.Gəzirsən</li>
+                <li>15.Buludlar</li>
+                <li>16.Tanıram səni</li>
+                <li>17.Unutmaq istərkən</li>
+                <li>18.Sən başqa bir evə gəlin köçmüsən</li>
+                <li>19.Bu dünyadan soyutdular</li>
+                <li>20.Səni Allahıma tapşırıram mən</li>
+                <li>21.Sənin ələlrindən</li>
+                <li>22.Gedir</li>
+                <li>23.Qoca dünya</li>
+                <li>24.Bəhanəsiz</li>
+                <li>25.Əhd</li>
+                <li>26. Qalır izləri</li>
+                <li>27.Nifrət edirəm</li>
+                <li>28.Yüz yaşa</li>
+                <li>29.Bağışda</li>
+                <li>30.Düz insanlar</li>
+                <li>31.Qəddar həyat</li>
+                <li>32.Dünyasan</li>
+                <li>33.Adamsan</li>
+                <li>34.Bu gecə</li>
+                <li>35.Sevinci bölürsən</li>
+                <li>36.Həyat</li>
+                <li>37.Heyif</li>
+                <li>38.Dönməsən də</li>
+                <li>39.Şeirlər övladımdı</li>
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="icons-info-footer">
+                <div class="icons-footer">
+                    <img src="./İmages/telephone (1).png" alt="phone">
+
+                    <img class="telegram" src="./İmages/telegram.svg" alt="telegram">
+
+
+                    <img src="./İmages/instagram.png" alt="instagram">
+
+                    <img src="./İmages/facebook.png" alt="facebook">
+                    <img src="./İmages/letter-c.png" alt="author">
+                </div>
+                <div class="info-footer">
+                    <a style="text-decoration: none;" href="tel:+994515430704">
+                        <p class="pnumber">(+994) 51 543 07 04</p>
+                    </a>
+                    <a style="text-decoration: none;" href="https://t.me/+GDykUd32h0gxYTMy">
+                        <p class="tpage">Şeirlər Toplusu</p>
+                    </a>
+                    <a style="text-decoration: none;"
+                        href="https://www.instagram.com/eltun_sefer_?igsh=MTN4d3p0bmo1dHBtdA==">
+                        <p class="iname">eltun_sefer_</p>
+                    </a>
+                    <a style="text-decoration: none;"
+                        href="https://www.facebook.com/profile.php?id=61554166445407&mibextid=ZbWKwL">
+                        <p class="faccount">Eltun Safarli</p>
+                    </a>
+                    <p class="author">Müəllif hüquqları qorunur</p>
+                </div>
+                <div class="poem-footer">
+                    <p>Mən öz həyatımı alsam qələmə,</p>
+                    <p>Bütün sətirlərim batacaq qəmə!</p>
+                </div>
+                <p class="name-author-footer">Eltun Səfərli</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function toggleMode() {
+            const body = document.body;
+            const button = document.querySelector("button");
+
+            if (body.classList.contains("dark-mode")) {
+                body.classList.remove("dark-mode");
+                body.classList.add("light-mode");
+                button.textContent = "Dark Mode";
+            } else {
+                body.classList.remove("light-mode");
+                body.classList.add("dark-mode");
+                button.textContent = "Light Mode";
+            }
+        }
+
+        function veten() {
+            window.location.href = "veten.html";
+        }
+        function sevgi() {
+            window.location.href = "sevgi.html";
+        }
+        function dini() {
+            window.location.href = "dini.html";
+        }
+        function qezel() {
+            window.location.href = "qəzəl.html";
+        }
+
+
+        function openNewSite() {
+            window.location.href = "logo.html";
+        }
+
+        function EsasSehife() {
+            window.location.href = "index.html";
+        }
+
+        function About() {
+            window.location.href = "about.html";
+        }
+        function Form() {
+            window.location.href = "form.html";
+        }
+
+
+
+        //Internet bağlantısı
+        function updateNetworkStatus() {
+            const statusDiv = document.getElementById('network-status');
+            if (!navigator.onLine) {
+                statusDiv.textContent = 'İnternet bağlantısı kəsildi!';
+                statusDiv.style.display = 'block';
+
+            } else {
+                statusDiv.textContent = '';
+                statusDiv.style.display = 'block';
+            }
+        }
+
+        window.addEventListener('online', updateNetworkStatus);
+        window.addEventListener('offline', updateNetworkStatus);
+
+        updateNetworkStatus();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+     
+        font-family: "Roboto", sans-serif;
+        
+}
+*{
+        margin: 0;
+        padding: 0;
+}
+
+
+
+.header {
+  background-color: rgb(11, 2, 95);
+  color: #fff;
+  padding: 10px 0px;
+  display: flex;
+  margin-top: -25px;
+  margin-bottom: 50px;
+  align-items: center;
+  width: 1515px;  
+ 
+
+}
+
+
+.header a {
+        color: #fff;
+        text-decoration: none;
+        padding: 35px;
+        margin-left: 70px;
+        font-size: 20px;
+        /* margin-top: 1px; */
+
+}
+
+
+.header a:hover {
+       color: #ccc;
+       
+}
+
+.logo1{
+        width: 70px;
+        margin-left: 90px;
+        border-radius: 30px;
+        cursor:pointer;
+        margin-top: 25px;
+        
+}
+h5{
+        margin-left: 55px;
+        min-width: 100px;
+        margin-top: 5px;
+      font-size: 20px;
+        
+}
+.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 60px;
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+}
+
+.dropdown-content a {
+        color: black;
+        padding: 12px 10px;
+        margin-left: -2px;
+        text-decoration: none;
+        display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+        display: block;
+}
+
+.container-registration {
+        max-width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        display: none;
+}
+
+
+.img-view{
+        display: flex;
+
+}
+.form-group {
+        margin-bottom: 15px;
+}
+
+.form-group label {
+        display: block;
+        margin-bottom: 5px;
+}
+.footer{
+        background-color: black;
+        border: 1px solid black;
+        height: 330px;
+        /* margin-top: 250px; */
+        width: 1630px;
+}
+
+.footer{
+        width: 1517px;
+        margin-top: 100px;
+      }
+      .logo-img{
+          width: 350px;
+          margin-left: 20px;
+          margin-right: 35px;
+      }
+      
+      .logo-info{
+          display: flex;
+         
+      }
+      .linfo{
+          margin-left: 60px;
+          font-size: 26px;
+          /* background-color: red; */
+                }
+      .logoi{
+      font-size: 24px;
+      line-height: 2;
+      min-width: 1000px;
+      
+      }
+      .structure-site{
+          margin-left: 20px;
+          font-size: 24px;
+          line-height: 1.5;
+          min-width: 1150px;
+      }
+      .icons-footer{
+          width: 200px;
+          
+          display: flex;
+          /* justify-content: space-between; */
+          flex-direction: column;
+         gap: 30px;
+          height: 30px;
+          width: 30px;
+          margin-left: 10px;
+          margin-top: 15px;
+      }
+      .info-footer{
+          color: antiquewhite;
+          /* gap: 30px; */
+      }
+      
+      .icons-info-footer{
+        display: flex;
+        flex-direction: column;
+       
+      }
+      .pnumber{
+          margin-left: 50px;
+          margin-top: -23px;
+          font-size: 18px;
+          color: white;
+      }
+      .tpage{
+          margin-left: 50px;
+          margin-top: 40px;
+          font-size: 18px;
+          color: white;
+      }
+      .iname{
+          margin-left: 50px;
+          margin-top: 38px;
+          font-size: 18px;
+          color: white;
+      }
+      .faccount{
+          margin-left: 50px;
+          margin-top: 42px;
+          font-size: 18px;
+          color: white;
+      }
+      .author{
+          margin-left: 50px;
+          margin-top: 37px;
+          font-size: 18px;
+
+      }
+      
+      .poem-footer{
+          color: #fff;
+          margin-left: 550px;
+          margin-top: -210px;
+          font-size: 33px;
+      }
+      
+      .name-author-footer {
+          color: #fff;
+          margin-left: 970px;
+          margin-top: 5px;
+          font-size: 30px;
+      
+      } 
+
+      
+
+#send-button{
+        margin-left: 120px;
+        width: 170px;
+        /* min-width: 15%; */
+}
+#user-button{
+  margin-left: 60px;
+  width: 300px;
+  /* min-width: 15%; */
+  margin-top: 5px;
+}
+
+
+
+
+      .comment-form {
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 500px;
+      }
+
+      .comment-form input{
+        width: 400px;
+        height: 80px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px dashed #ccc;
+      }
+      
+      .comment-form button {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 60px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .comments-container {
+        margin-top: 10px;
+      }
+      .comments-container ul {
+        list-style: none;
+         
+      }
+      .comments-container li {
+        padding-left: 20px;
+        line-height: 2;
+        border: 1px solid black;
+        width: 20%;
+        margin-bottom: 15px;
+
+      }  
+      .comments-form-container{
+        margin-left: 50px;
+      }
+      
+     .telegram{
+        width: 33px;
+        background-color: wheat;
+        border-radius: 140px ;
+        /* text-decoration: none; */
+     }
+     .rating-container {
+        font-size: 24px;
+        color: #666;
+      }
+      
+      .rating-star {
+        margin-right: 5px;
+        font-size: 24px;
+        color: #666;
+      }
+      
+      .rating-star:hover {
+        color: #FFD700;
+      }
+      
+      .rating-star:hover ~ .rating-star {
+        color: #666;
+      }
+      
+      .form-section {
+        margin-bottom: 20px;
+      }
+      
+      .form-section label {
+        font-size: 18px;
+        color: #666;
+      }
+      
+      .form-section textarea {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        font-size: 16px;
+        color: #666;
+      }
+      
+      .button-submit {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .button-submit:hover {
+        background-color: #3e8e41;
+      }
+      
+      .feedback-list {
+        margin-top: 20px;
+       
+      }
+      
+     
+      .feedback-list h3 {
+        font-size: 28px;
+      }
+      
+      .feedback-list ul {
+        list-style: none;
+        padding: 10;
+        border: 1px dashed black;
+       
+      
+      }
+
+     
+      #poets-table {
+        border-collapse: collapse;
+        min-width: 1500px;
+      }
+    
+      #poets-table th, #poets-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+    
+      #poets-table th {
+        background-color: #f0f0f0;
+      }
+
+      .mode-button{
+        margin-left: 1200px;
+       display: flex;
+       margin-top: -140px;
+       padding: 10px;
+       border-radius:15px;
+       min-width: 90px;
+       width: 120px;
+       justify-content: center;
+       cursor: pointer;
+      }
+
+
+
+      #network-status{
+        /* background-color: red; */
+        /* border: 1px dashed black; */
+        width: 20%;
+        min-width: 20%;
+        margin-left: 600px;
+        margin-bottom: 40px;
+        padding-left: 60px;
+        color: black;
+        margin-top: 100px;
+        padding: 10px;
+      }
+      
+
+      /* Light mode styles */
+.light-mode {
+  background-color: #f0f0f0;
+  color: rgb(56, 53, 53);
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: rgb(56, 53, 53);
+  color: #f0f0f0;
+}
+
+
+.returnButton {
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  margin-left: 580px;
+}
+
+.poemEnglish{
+  white-space: pre-wrap;
+  border: 1px solid black;
+  width: 500px;
+  min-width: 30%;
+  margin-left: 460px;
+  padding-left: 100px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.poetName{
+margin-top: 270px;
+margin-left: -220px;
+min-width: 100px ;
+}
+
+
+
+
+
+/* ____________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* __________________________________________________ */
+
+@media (min-width: 601px) and (max-width: 991px) {
+
+  .header {
+    background-color: rgb(11, 2, 95);
+    color: #fff;
+    padding: 7px 0px;
+    display: flex;
+   margin-top: -20px;
+    height: 190px;
+    align-items: center;
+    width: 1200px;
+    
+    
+    
+     
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 35px;
+    margin-left: 30px;
+    font-size: 20px;
+    /* margin-top: 1px; */
+
+}
+
+
+.header a:hover {
+   color: #ccc;
+   
+}
+
+.logo1{
+    width: 70px;
+    margin-left: 90px;
+    border-radius: 30px;
+    cursor:pointer;
+    margin-top: 25px;
+    
+}
+h5{
+    margin-left: 55px;
+    min-width: 100px;
+    margin-top: 5px;
+  font-size: 20px;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    margin-left: -2px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container-registration {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: none;
+}
+
+
+.img-view{
+    display: flex;
+
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.footer{
+    background-color: black;
+    border: 1px solid black;
+    height: 330px;
+    /* margin-top: 250px; */
+    width: 991px;
+}
+
+.footer{
+    width: 1200px;
+    margin-top: 100px;
+  }
+  .logo-img{
+      width: 350px;
+      margin-left: 20px;
+      margin-right: 35px;
+  }
+  
+  .logo-info{
+      display: flex;
+     
+  }
+  .linfo{
+      margin-left: 30px;
+      font-size: 29px;
+            }
+  .logoi{
+  font-size: 16px;
+  line-height: 2;
+  min-width: 700px;
+  width: 990px;
+  /* background-color: #3e8e41; */
+  
+  }
+  .structure-site{
+      margin-left: 20px;
+      font-size: 24px;
+      min-width: 1160px;
+  }
+  .icons-footer{
+      width: 200px;
+      
+      display: flex;
+      /* justify-content: space-between; */
+      flex-direction: column;
+     gap: 30px;
+      height: 30px;
+      width: 30px;
+      margin-left: 10px;
+      margin-top: 15px;
+  }
+  .info-footer{
+      color: antiquewhite;
+      /* gap: 30px; */
+  }
+  
+  .icons-info-footer{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .pnumber{
+      margin-left: 50px;
+      margin-top: -23px;
+      font-size: 18px;
+      color: white;
+  }
+  .tpage{
+      margin-left: 50px;
+      margin-top: 40px;
+      font-size: 18px;
+      color: white;
+  }
+  .iname{
+      margin-left: 50px;
+      margin-top: 38px;
+      font-size: 18px;
+      color: white;
+  }
+  .faccount{
+      margin-left: 50px;
+      margin-top: 42px;
+      font-size: 18px;
+      color: white;
+  }
+  .author{
+      margin-left: 50px;
+      margin-top: 37px;
+      font-size: 18px;
+
+  }
+  
+  .poem-footer{
+      color: #fff;
+      margin-left: 450px;
+      margin-top: -210px;
+      font-size: 33px;
+  }
+  
+  .name-author-footer {
+      color: #fff;
+      margin-left: 770px;
+      margin-top: 5px;
+      font-size: 30px;
+  
+  } 
+
+  
+
+#send-button{
+    margin-left: 40px;
+    width: 160px;
+    min-width: 15%;
+}
+#user-button{
+margin-left: 23px;
+width: 200px;
+min-width: 15%;
+margin-top: 5px;
+}
+
+
+
+
+  .comment-form {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 420px;
+  }
+
+  .comment-form input{
+    width: 50%;
+    min-width: 220px;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+  }
+  
+  .comment-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .comments-container {
+    margin-top: 10px;
+  }
+  .comments-container ul {
+    list-style: none;
+     
+  }
+  .comments-container li {
+    padding-left: 20px;
+    line-height: 2;
+    border: 1px solid black;
+    width: 20%;
+    margin-bottom: 15px;
+
+  }  
+  .comments-form-container{
+    margin-left: 50px;
+  }
+  
+ .telegram{
+    width: 33px;
+    background-color: wheat;
+    border-radius: 140px ;
+    /* text-decoration: none; */
+ }
+ .rating-container {
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .rating-star {
+    margin-right: 5px;
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .rating-star:hover {
+    color: #FFD700;
+  }
+  
+  .rating-star:hover ~ .rating-star {
+    color: #666;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-section label {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .form-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .button-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-submit:hover {
+    background-color: #3e8e41;
+  }
+  
+  .feedback-list {
+    margin-top: 20px;
+   
+  }
+  
+  .feedback-list h3 {
+    font-size: 18px;
+  }
+  
+  .feedback-list ul {
+    list-style: none;
+    padding: 0;
+    border: 1px dashed black;
+  }
+
+ 
+  #poets-table {
+    border-collapse: collapse;
+    min-width: 1200px;
+  }
+
+  #poets-table th, #poets-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  #poets-table th {
+    background-color: #f0f0f0;
+  }
+
+  .mode-button{
+    margin-left: 950px;
+   display: flex;
+   margin-top: -167px;
+   padding: 10px;
+   border-radius:15px;
+   min-width: 90px;
+   width: 120px;
+   justify-content: center;
+   cursor: pointer;
+  }
+
+
+
+  #network-status{
+    /* background-color: red; */
+    /* border: 1px dashed black; */
+    width: 50%;
+    min-width: 20%;
+    margin-left: 300px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    color: black;
+    margin-top: 100px;
+  }
+  
+
+  /* Light mode styles */
+.light-mode {
+background-color: #f0f0f0;
+color: rgb(56, 53, 53);
+}
+
+/* Dark mode styles */
+.dark-mode {
+background-color: rgb(56, 53, 53);
+color: #f0f0f0;
+}
+
+
+.returnButton {
+padding: 10px;
+width: 200px;
+cursor: pointer;
+margin-left: 580px;
+}
+
+.poemEnglish{
+white-space: pre-wrap;
+border: 1px solid black;
+width: 1000px;
+min-width: 370px;
+margin-left: 350px;
+padding-left: 100px;
+height: 250px;
+margin-top: 50px;
+}
+
+.poetName{
+margin-top: 270px;
+margin-left: -170px;
+min-width: 100px;
+}
+ 
+}
+
+
+
+@media (min-width: 300px) and (max-width: 601px) {
+
+  .header {
+    background-color: rgb(11, 2, 95);
+    color: #fff;
+    padding: 7px 0px;
+    /* display: flex; */
+   margin-top: -20px;
+    height: 190px;
+    align-items: center;
+    width: 1080px;
+    /* background/-color: #FFD700; */
+    
+    
+     
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 35px;
+    margin-left: 30px;
+    font-size: 20px;
+    /* margin-top: 1px; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.header a:hover {
+   color: #ccc;
+   
+}
+
+.logo1{
+    width: 70px;
+    margin-left: 90px;
+    border-radius: 30px;
+    cursor:pointer;
+    margin-top: 25px;
+    
+}
+h5{
+    margin-left: 55px;
+    min-width: 100px;
+    margin-top: 5px;
+  font-size: 20px;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    margin-left: -2px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container-registration {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: none;
+}
+
+
+.img-view{
+    display: flex;
+
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.footer{
+    background-color: black;
+    border: 1px solid black;
+    height: 530px;
+    /* margin-top: 250px; */
+    /* width: 991px; */
+    width: 1078px;
+    margin-top: 100px;
+}
+
+ 
+  .logo-img{
+      width: 550px;
+      margin-left: 360px;
+      margin-bottom: 55px;
+  }
+  
+  .logo-info{
+      display: flex;
+      flex-direction: column;
+     
+  }
+  .linfo{
+      margin-left: 30px;
+      font-size: 49px;
+      width: 1200px;
+
+            }
+  .logoi{
+  font-size: 46px;
+  line-height: 2;
+  min-width: 700px;
+  width: 1100px;
+  margin-left: 40px;
+  /* background-color: #3e8e41; */
+  
+  }
+  .structure-site{
+      margin-left: 20px;
+      font-size: 44px;
+      min-width: 1160px;
+  }
+  .icons-footer{
+      width: 200px;
+      
+      display: flex;
+      /* justify-content: space-between; */
+      flex-direction: column;
+     gap: 30px;
+      height: 30px;
+      width: 60px;
+      margin-left: 10px;
+      margin-top: 25px;
+  }
+  .info-footer{
+      color: antiquewhite;
+      /* gap: 30px; */
+  }
+  
+  .icons-info-footer{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .pnumber{
+      margin-left: 80px;
+      margin-top: -23px;
+      font-size: 36px;
+      color: white;
+  }
+  .tpage{
+      margin-left: 80px;
+      margin-top: 40px;
+      font-size: 36px;
+      color: white;
+  }
+  .iname{
+      margin-left: 85px;
+      margin-top: 38px;
+      font-size: 36px;
+      color: white;
+  }
+  .faccount{
+      margin-left: 80px;
+      margin-top: 42px;
+      font-size: 36px;
+      color: white;
+  }
+  .author{
+      margin-left: 80px;
+      margin-top: 37px;
+      font-size: 38px;
+
+  }
+  
+  .poem-footer{
+      color: #fff;
+      margin-left: 540px;
+      margin-top: -210px;
+      font-size: 33px;
+      min-width: 200px;
+  }
+  
+  .name-author-footer {
+      color: #fff;
+      margin-left: 970px;
+      margin-top: 5px;
+      font-size: 30px;
+  
+  } 
+
+  
+  
+
+#send-button{
+    margin-left: 190px;
+    width: 120px;
+    
+    min-width: 150px;
+}
+#user-button{
+margin-left: 165px;
+width: 200px;
+min-width: 180px;
+margin-top: 5px;
+}
+
+
+
+
+  .comment-form {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+
+  .comment-form input{
+    width: 500px;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    border: 1px dashed #ccc;
+  }
+  
+  .comment-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .comments-container {
+    margin-top: 10px;
+  }
+  .comments-container ul {
+    list-style: none;
+     
+  }
+  .comments-container li {
+    padding-left: 20px;
+    line-height: 2;
+    border: 1px solid black;
+    width: 20%;
+    margin-bottom: 15px;
+
+  }  
+  .comments-form-container{
+    margin-left: 50px;
+  }
+  
+ .telegram{
+    width: 33px;
+    background-color: wheat;
+    border-radius: 140px ;
+    /* text-decoration: none; */
+ }
+ .rating-container {
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .rating-star {
+    margin-right: 5px;
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .rating-star:hover {
+    color: #FFD700;
+  }
+  
+  .rating-star:hover ~ .rating-star {
+    color: #666;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-section label {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .form-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .button-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-submit:hover {
+    background-color: #3e8e41;
+  }
+  
+  .feedback-list {
+    margin-top: 20px;
+   
+  }
+  
+  .feedback-list h3 {
+    font-size: 18px;
+  }
+  
+  .feedback-list ul {
+    list-style: none;
+    padding: 0;
+    border: 1px dashed black;
+  }
+
+ 
+  #poets-table {
+    border-collapse: collapse;
+    width: 400px;
+    min-width: 400px;
+  }
+
+  #poets-table th, #poets-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  #poets-table th {
+    background-color: #f0f0f0;
+  }
+
+  .mode-button{
+    margin-left: 920px;
+   display: flex;
+   padding: 10px;
+   margin-top: -170px ;
+   border-radius:15px;
+   min-width: 70px;
+   width: 120px;
+   /* margin-top: 96px; */
+   justify-content: center;
+  
+
+  }
+
+
+
+  #network-status{
+    /* background-color: red; */
+    /* border: 1px dashed black; */
+    width: 500px;
+    min-width: 20%;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    color: black;
+    margin-top: 100px;
+  }
+  
+
+  /* Light mode styles */
+.light-mode {
+background-color: #f0f0f0;
+color: rgb(56, 53, 53);
+}
+
+/* Dark mode styles */
+.dark-mode {
+background-color: rgb(56, 53, 53);
+color: #f0f0f0;
+}
+
+
+.returnButton {
+padding: 10px;
+width: 200px;
+cursor: pointer;
+margin-left: 580px;
+}
+
+.poemEnglish{
+white-space: pre-wrap;
+border: 1px solid black;
+width: 500px;
+min-width: 400px;
+margin-left: 250px;
+padding-left: 100px;
+height: 250px;
+margin-top: 50px;
+}
+
+.poetName{
+margin-top: 270px;
+margin-left: -120px;
+}
+ 
+}

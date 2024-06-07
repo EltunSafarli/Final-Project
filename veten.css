@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+ 
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+.poem-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    min-width: 550px;
+    height: 500px;
+    /* display: flex; */
+    
+
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poem-title {
+    font-family: 'Lora', serif;
+    font-size: 1.8em;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    color: #4a4a4a;
+}
+.poem-content {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    /* padding-top: -100px; */
+    white-space: pre-wrap;
+    /* margin: 120px 0; */
+    display: flex;
+    padding-left: 25px;
+}
+ 
+
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 991px) {
+
+    .poem-container{
+margin-left: 290px;
+width: 800px;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 601px) {
+
+    .poem-container{
+margin-left: 250px;
+width: 800px;
+    }
+
+}
